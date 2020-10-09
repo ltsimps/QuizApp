@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';
+import 'package:quizapp/services/bottom_nav.dart';
 
 class LoginScreen extends StatelessWidget {
   @override
@@ -14,6 +15,7 @@ class LoginScreen extends StatelessWidget {
       body: Center(
         child: Text('Login'),
       ),
+      bottomNavigationBar: AppBottomNav(),
     );
   }
 }
