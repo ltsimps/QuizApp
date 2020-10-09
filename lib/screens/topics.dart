@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:quizapp/services/bottom_nav.dart';
 
 class TopicsScreen extends StatelessWidget {
   @override
@@ -8,9 +9,7 @@ class TopicsScreen extends StatelessWidget {
         title: Text('Topics'),
         backgroundColor: Colors.orange,
       ),
-      body: Center(
-        child: Text('Topics'),
-      ),
+      bottomNavigationBar: AppBottomNav(),
     );
   }
 }
