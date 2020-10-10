@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'package:quizapp/services/auth.dart';
-import 'package:quizapp/services/bottom_nav.dart';
 
 class LoginScreen extends StatefulWidget {
   @override
@@ -50,7 +49,6 @@ class _LoginScreenState extends State<LoginScreen> {
           ],
         ),
       ),
-      bottomNavigationBar: AppBottomNav(),
     );
   }
 }
